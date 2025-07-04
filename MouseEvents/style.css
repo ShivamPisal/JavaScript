@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(255, 242, 0);
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerChange{
+    background-color: rgb(0, 213, 255);
+    transition: transform 1s ease;
+}
+.rotate {
+  transform: rotate(360deg);
+}
+
+.box{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+.boxChange {
+  background-color:rgb(247, 0, 255);
+}
